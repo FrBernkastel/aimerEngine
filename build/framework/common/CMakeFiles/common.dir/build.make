@@ -70,9 +70,22 @@ framework/common/CMakeFiles/common.dir/BaseApplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/BaseApplication.cpp.s"
 	cd F:/Projects/C++/aimerEngine/build/framework/common && "F:/Visual Studio/VC/bin/x86_amd64/cl.exe"  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles/common.dir/BaseApplication.cpp.s /c F:/Projects/C++/aimerEngine/framework/common/BaseApplication.cpp
 
+framework/common/CMakeFiles/common.dir/GraphicsManager.cpp.obj: framework/common/CMakeFiles/common.dir/flags.make
+framework/common/CMakeFiles/common.dir/GraphicsManager.cpp.obj: ../framework/common/GraphicsManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:/Projects/C++/aimerEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object framework/common/CMakeFiles/common.dir/GraphicsManager.cpp.obj"
+	cd F:/Projects/C++/aimerEngine/build/framework/common && "F:/Visual Studio/VC/bin/x86_amd64/cl.exe"  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles/common.dir/GraphicsManager.cpp.obj /FdCMakeFiles/common.dir/common.pdb /FS -c F:/Projects/C++/aimerEngine/framework/common/GraphicsManager.cpp
+
+framework/common/CMakeFiles/common.dir/GraphicsManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/GraphicsManager.cpp.i"
+	cd F:/Projects/C++/aimerEngine/build/framework/common && "F:/Visual Studio/VC/bin/x86_amd64/cl.exe" > CMakeFiles/common.dir/GraphicsManager.cpp.i  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:/Projects/C++/aimerEngine/framework/common/GraphicsManager.cpp
+
+framework/common/CMakeFiles/common.dir/GraphicsManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/GraphicsManager.cpp.s"
+	cd F:/Projects/C++/aimerEngine/build/framework/common && "F:/Visual Studio/VC/bin/x86_amd64/cl.exe"  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles/common.dir/GraphicsManager.cpp.s /c F:/Projects/C++/aimerEngine/framework/common/GraphicsManager.cpp
+
 framework/common/CMakeFiles/common.dir/main.cpp.obj: framework/common/CMakeFiles/common.dir/flags.make
 framework/common/CMakeFiles/common.dir/main.cpp.obj: ../framework/common/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:/Projects/C++/aimerEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object framework/common/CMakeFiles/common.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:/Projects/C++/aimerEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object framework/common/CMakeFiles/common.dir/main.cpp.obj"
 	cd F:/Projects/C++/aimerEngine/build/framework/common && "F:/Visual Studio/VC/bin/x86_amd64/cl.exe"  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles/common.dir/main.cpp.obj /FdCMakeFiles/common.dir/common.pdb /FS -c F:/Projects/C++/aimerEngine/framework/common/main.cpp
 
 framework/common/CMakeFiles/common.dir/main.cpp.i: cmake_force
@@ -86,16 +99,18 @@ framework/common/CMakeFiles/common.dir/main.cpp.s: cmake_force
 # Object files for target common
 common_OBJECTS = \
 "CMakeFiles/common.dir/BaseApplication.cpp.obj" \
+"CMakeFiles/common.dir/GraphicsManager.cpp.obj" \
 "CMakeFiles/common.dir/main.cpp.obj"
 
 # External object files for target common
 common_EXTERNAL_OBJECTS =
 
 framework/common/common.lib: framework/common/CMakeFiles/common.dir/BaseApplication.cpp.obj
+framework/common/common.lib: framework/common/CMakeFiles/common.dir/GraphicsManager.cpp.obj
 framework/common/common.lib: framework/common/CMakeFiles/common.dir/main.cpp.obj
 framework/common/common.lib: framework/common/CMakeFiles/common.dir/build.make
 framework/common/common.lib: framework/common/CMakeFiles/common.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:/Projects/C++/aimerEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library common.lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:/Projects/C++/aimerEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library common.lib"
 	cd F:/Projects/C++/aimerEngine/build/framework/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
 	cd F:/Projects/C++/aimerEngine/build/framework/common && "F:/Visual Studio/VC/bin/x86_amd64/link.exe" /lib /nologo /machine:x64 /out:common.lib @CMakeFiles/common.dir/objects1.rsp 
 

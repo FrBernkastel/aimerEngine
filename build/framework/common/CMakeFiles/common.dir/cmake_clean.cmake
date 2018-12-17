@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/common.dir/BaseApplication.cpp.obj"
+  "CMakeFiles/common.dir/GraphicsManager.cpp.obj"
   "CMakeFiles/common.dir/main.cpp.obj"
   "common.pdb"
   "common.lib"

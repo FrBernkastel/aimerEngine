@@ -107,7 +107,7 @@ framework/common/preinstall:
 framework/common/CMakeFiles/common.dir/all:
 	$(MAKE) -f framework/common/CMakeFiles/common.dir/build.make framework/common/CMakeFiles/common.dir/depend
 	$(MAKE) -f framework/common/CMakeFiles/common.dir/build.make framework/common/CMakeFiles/common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:/Projects/C++/aimerEngine/build/CMakeFiles --progress-num=1,2,3 "Built target common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:/Projects/C++/aimerEngine/build/CMakeFiles --progress-num=1,2,3,4 "Built target common"
 .PHONY : framework/common/CMakeFiles/common.dir/all
 
 # Include target in all.
@@ -117,7 +117,7 @@ all: framework/common/CMakeFiles/common.dir/all
 
 # Build rule for subdir invocation for target.
 framework/common/CMakeFiles/common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:/Projects/C++/aimerEngine/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start F:/Projects/C++/aimerEngine/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 framework/common/CMakeFiles/common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:/Projects/C++/aimerEngine/build/CMakeFiles 0
 .PHONY : framework/common/CMakeFiles/common.dir/rule
@@ -162,7 +162,7 @@ starter/preinstall:
 starter/CMakeFiles/starter.dir/all: framework/common/CMakeFiles/common.dir/all
 	$(MAKE) -f starter/CMakeFiles/starter.dir/build.make starter/CMakeFiles/starter.dir/depend
 	$(MAKE) -f starter/CMakeFiles/starter.dir/build.make starter/CMakeFiles/starter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:/Projects/C++/aimerEngine/build/CMakeFiles --progress-num=4,5 "Built target starter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:/Projects/C++/aimerEngine/build/CMakeFiles --progress-num=5,6 "Built target starter"
 .PHONY : starter/CMakeFiles/starter.dir/all
 
 # Include target in all.
@@ -172,7 +172,7 @@ all: starter/CMakeFiles/starter.dir/all
 
 # Build rule for subdir invocation for target.
 starter/CMakeFiles/starter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:/Projects/C++/aimerEngine/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start F:/Projects/C++/aimerEngine/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 starter/CMakeFiles/starter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:/Projects/C++/aimerEngine/build/CMakeFiles 0
 .PHONY : starter/CMakeFiles/starter.dir/rule

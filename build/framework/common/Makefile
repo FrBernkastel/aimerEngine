@@ -152,6 +152,33 @@ BaseApplication.cpp.s:
 	cd F:/Projects/C++/aimerEngine/build && $(MAKE) -f framework/common/CMakeFiles/common.dir/build.make framework/common/CMakeFiles/common.dir/BaseApplication.cpp.s
 .PHONY : BaseApplication.cpp.s
 
+GraphicsManager.obj: GraphicsManager.cpp.obj
+
+.PHONY : GraphicsManager.obj
+
+# target to build an object file
+GraphicsManager.cpp.obj:
+	cd F:/Projects/C++/aimerEngine/build && $(MAKE) -f framework/common/CMakeFiles/common.dir/build.make framework/common/CMakeFiles/common.dir/GraphicsManager.cpp.obj
+.PHONY : GraphicsManager.cpp.obj
+
+GraphicsManager.i: GraphicsManager.cpp.i
+
+.PHONY : GraphicsManager.i
+
+# target to preprocess a source file
+GraphicsManager.cpp.i:
+	cd F:/Projects/C++/aimerEngine/build && $(MAKE) -f framework/common/CMakeFiles/common.dir/build.make framework/common/CMakeFiles/common.dir/GraphicsManager.cpp.i
+.PHONY : GraphicsManager.cpp.i
+
+GraphicsManager.s: GraphicsManager.cpp.s
+
+.PHONY : GraphicsManager.s
+
+# target to generate assembly for a file
+GraphicsManager.cpp.s:
+	cd F:/Projects/C++/aimerEngine/build && $(MAKE) -f framework/common/CMakeFiles/common.dir/build.make framework/common/CMakeFiles/common.dir/GraphicsManager.cpp.s
+.PHONY : GraphicsManager.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -191,6 +218,9 @@ help:
 	@echo "... BaseApplication.obj"
 	@echo "... BaseApplication.i"
 	@echo "... BaseApplication.s"
+	@echo "... GraphicsManager.obj"
+	@echo "... GraphicsManager.i"
+	@echo "... GraphicsManager.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
