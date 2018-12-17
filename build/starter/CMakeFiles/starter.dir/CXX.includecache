@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../framework/common/BaseApplication.hpp
+IApplication.hpp
+../framework/common/IApplication.hpp
+
+../framework/interface/IApplication.hpp
+Interface.hpp
+../framework/interface/Interface.hpp
+IRuntimeModule.hpp
+../framework/interface/IRuntimeModule.hpp
+
+../framework/interface/IRuntimeModule.hpp
+Interface.hpp
+../framework/interface/Interface.hpp
+
+../framework/interface/Interface.hpp
+
+F:/Projects/C++/aimerEngine/starter/StarterApplication.cpp
+BaseApplication.hpp
+F:/Projects/C++/aimerEngine/starter/BaseApplication.hpp
+

@@ -1,0 +1,2 @@
+add_executable(starter StarterApplication.cpp)
+target_link_libraries(starter common)

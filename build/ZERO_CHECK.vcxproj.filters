@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\Projects\C++\aimerEngine\build\CMakeFiles\4075e14d91301a9f2136aecca6b654d9\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{82200DB9-F842-3257-9DA8-B2AADB4CBBB7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
